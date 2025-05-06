@@ -54,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen>
         height: double.infinity,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xffe6ae8c), Color(0xffa8cecf)],
+            colors: [ Color(0xffa8cecf), Color.fromARGB(255, 255, 255, 255)],
             stops: [0, 1],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
@@ -67,7 +67,7 @@ class _SplashScreenState extends State<SplashScreen>
               child: Padding(
                 padding: const EdgeInsets.all(32.0),
                 child: Image.asset(
-                  'assets/BG.jpg',
+                  'assets/BG2.png',
                   width: 1000,
                   height: 1000,
                   fit: BoxFit.contain,

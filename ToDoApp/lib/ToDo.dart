@@ -28,7 +28,7 @@ class _ToDoState extends State<ToDo> {
           height: 120,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xffe6ae8c), Color(0xffa8cecf)],
+              colors: [Color(0xfff9c8cc), Color(0xffa8cecf)],
               stops: [0, 1],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -51,17 +51,17 @@ class _ToDoState extends State<ToDo> {
       body: Stack(
         children: [
           // Centered transparent logo
-          Center(
-            child: Opacity(
-              opacity: 0.25,
-              child: Image.asset(
-                "assets/BG2.jpg", 
-                width: 300,
-                height: 300,
-                fit: BoxFit.contain,
-              ),
-            ),
-          ),
+          // Center(
+          //   child: Opacity(
+          //     opacity: 0.25,
+          //     child: Image.asset(
+          //       "assets/BG2.png", 
+          //       width: 300,
+          //       height: 300,
+          //       fit: BoxFit.contain,
+          //     ),
+          //   ),
+          // ),
 
           // Main ListView
           Padding(
@@ -74,7 +74,7 @@ class _ToDoState extends State<ToDo> {
                     backgroundColor: const Color.fromARGB(44, 146, 143, 143),
                     child: Text(
                       "${index + 1}",
-                      style: GoogleFonts.anton(color: const Color(0xffe6ae8c)),
+                      style: GoogleFonts.anton(color: const Color(0xfff9c8cc)),
                     ),
                   ),
                   title: Text(
